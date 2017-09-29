@@ -1,16 +1,22 @@
 import React, {Component} from 'react';
+import './stuff.css';
 
-class Stuff extends Component{
+class TodoList extends Component{
     render(){
-
         return(
-            <div>
-                <h2>Stuff Page</h2>
-                <p>Or, "at will" or "at one's pleasure". This phrase, and its Italian (beneplacito) and Spanish (beneplácito) derivatives, are synonymous with the more common ad libitum (at pleasure).
-                </p>
+            <div className="todoListMain">
+                <h2>To do or not to do...</h2>
+                <br/>
+                <div className="todo-header">
+                    <form>
+                        <input placeholder="enter task">
+                        </input>
+                        <button type="submit">add</button>
+                    </form>
+                </div>
             </div>
         );
     }
 }
 
-export default Stuff;
+export default TodoList;
