@@ -5,7 +5,7 @@ class Contact extends Component{
 
         return(
             <div>
-                <h3>Contact Page</h3>
+                <h2>Contact Page</h2>
                 <p>Rights abused are still rights; confer abusus non tollit usum.
                 </p>
             </div>
