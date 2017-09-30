@@ -6,9 +6,9 @@ import {
     Link
 } from 'react-router-dom';
 import Home from './Home';
-import TodoList from './Stuff';
+import TodoList from './ToDoList';
 import Contact from './Contact';
-import './index.css'
+// import './index.css'
 
 class App extends Component{
 
